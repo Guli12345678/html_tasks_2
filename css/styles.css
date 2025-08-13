@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 7, 219, 1) 0%,
+    rgba(212, 2, 27, 1) 100%
+  );
+}
+
+table {
+  width: 900px;
+  height: 500px;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+thead {
+  height: 40px;
+}
+
+th {
+  color: white;
+  background: rgb(58, 57, 57);
+}
+
+td {
+  text-align: center;
+  color: black;
+  background: white;
+}
+
+.even td {
+  background-color: rgb(226, 223, 223);
+}
